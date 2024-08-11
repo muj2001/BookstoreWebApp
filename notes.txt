@@ -1,0 +1,8 @@
+Backend:
+    Install express and nodemon using npm
+    Add start and dev scripts to packages.json
+    Add config.json file for server port
+    Add "type": "module" in packages.json
+    Fixing CORs Policy Error:
+        npm i cors
+        use cors as a middleware in the backend index.js file
